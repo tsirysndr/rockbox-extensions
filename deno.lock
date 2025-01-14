@@ -1,0 +1,170 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.6",
+    "jsr:@std/fmt@^1.0.4": "1.0.4",
+    "jsr:@std/internal@^1.0.4": "1.0.4",
+    "npm:@types/node@*": "22.5.4",
+    "npm:axios@*": "1.7.9",
+    "npm:axios@^1.7.9": "1.7.9",
+    "npm:camelcase-keys@^9.1.3": "9.1.3",
+    "npm:zod@^3.24.1": "3.24.1"
+  },
+  "jsr": {
+    "@std/assert@1.0.6": {
+      "integrity": "1904c05806a25d94fe791d6d883b685c9e2dcd60e4f9fc30f4fc5cf010c72207",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/fmt@1.0.4": {
+      "integrity": "e14fe5bedee26f80877e6705a97a79c7eed599e81bb1669127ef9e8bc1e29a74"
+    },
+    "@std/internal@1.0.4": {
+      "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
+    }
+  },
+  "npm": {
+    "@types/node@22.5.4": {
+      "integrity": "sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "asynckit@0.4.0": {
+      "integrity": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q=="
+    },
+    "axios@1.7.9": {
+      "integrity": "sha512-LhLcE7Hbiryz8oMDdDptSrWowmB4Bl6RCt6sIJKpRB4XtVf0iEgewX3au/pJqm+Py1kCASkb/FFKjxQaLtxJvw==",
+      "dependencies": [
+        "follow-redirects",
+        "form-data",
+        "proxy-from-env"
+      ]
+    },
+    "camelcase-keys@9.1.3": {
+      "integrity": "sha512-Rircqi9ch8AnZscQcsA1C47NFdaO3wukpmIRzYcDOrmvgt78hM/sj5pZhZNec2NM12uk5vTwRHZ4anGcrC4ZTg==",
+      "dependencies": [
+        "camelcase",
+        "map-obj",
+        "quick-lru",
+        "type-fest"
+      ]
+    },
+    "camelcase@8.0.0": {
+      "integrity": "sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA=="
+    },
+    "combined-stream@1.0.8": {
+      "integrity": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",
+      "dependencies": [
+        "delayed-stream"
+      ]
+    },
+    "delayed-stream@1.0.0": {
+      "integrity": "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ=="
+    },
+    "follow-redirects@1.15.9": {
+      "integrity": "sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ=="
+    },
+    "form-data@4.0.1": {
+      "integrity": "sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==",
+      "dependencies": [
+        "asynckit",
+        "combined-stream",
+        "mime-types"
+      ]
+    },
+    "map-obj@5.0.0": {
+      "integrity": "sha512-2L3MIgJynYrZ3TYMriLDLWocz15okFakV6J12HXvMXDHui2x/zgChzg1u9mFFGbbGWE+GsLpQByt4POb9Or+uA=="
+    },
+    "mime-db@1.52.0": {
+      "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg=="
+    },
+    "mime-types@2.1.35": {
+      "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+      "dependencies": [
+        "mime-db"
+      ]
+    },
+    "proxy-from-env@1.1.0": {
+      "integrity": "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg=="
+    },
+    "quick-lru@6.1.2": {
+      "integrity": "sha512-AAFUA5O1d83pIHEhJwWCq/RQcRukCkn/NSm2QsTEMle5f2hP0ChI2+3Xb051PZCkLryI/Ir1MVKviT2FIloaTQ=="
+    },
+    "type-fest@4.31.0": {
+      "integrity": "sha512-yCxltHW07Nkhv/1F6wWBr8kz+5BGMfP+RbRSYFnegVb0qV/UMT0G0ElBloPVerqn4M2ZV80Ir1FtCcYv1cT6vQ=="
+    },
+    "undici-types@6.19.8": {
+      "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
+    },
+    "zod@3.24.1": {
+      "integrity": "sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A=="
+    }
+  },
+  "remote": {
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/deno.json": "3bb4a056806f4ceaae94e291f94864792ff08dfa7d3c1eaab12fb25fcaedc0ce",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/deps.ts": "335d5e36ca7cf964d9b8fffc20556dbf19ce7c1e16cdbe3a9831aa4b244a6762",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/mod.ts": "6e59d4fd6726f963442eb6edc00dd839cfcdbfce44abc4fd818c7122562fad79",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/browse.ts": "0fc3d6c15b0fc2161d915bbafc93733a67491c879e81354caae439286183bd18",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/client.ts": "6c0c8109feaefe3fbf60c27486d683b86b391f12cc7edddf667f48f84894005e",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/consts.ts": "ed548410f7379a1a06028c2e2f6b7df28a1991aa00cef7ff64ab71f006d0d3d9",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/library.ts": "4e4f6120deabb7cfbcc1eadb3a15c81e33eea1e5f09dc177d699018de5d07319",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/mod.ts": "392b9e9ebabd9e72828aee7976ce5f569165ac07d9707c44eac69598b03134d1",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/playback.ts": "0c220764eb4a272af438dfd06eb71faf9568657dbf0155d3870137ff7733937d",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/playlist.ts": "18b2fde02f751e941661d718b83460c9dfa4dd177fe244f9513910a5c5262b2d",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/settings.ts": "54b514d33a57e4179ead8e7b15d085959ddb4b7357c26e78f762b5aeb0be0130",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/sound.ts": "23b32d7a4ea4f6ca63ca54277522e430c1b2c4b3c28f3a92ca823af3d6329cea",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/system.ts": "477477bedf639c176e6c84072251cb9e4fb40aa1d1dd2b37bdfec74ff2c2037a",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/album.ts": "944132a9377b680dd111126504ec946280eb3bc074713c307c1f3032a9e944d2",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/artist.ts": "995a3899f3a89041ec3d8716a4e476c75d0b2de7b05a5526a9671a087dabe780",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/entry.ts": "7b0707fe17505316ae03e215cf0df5bf39b352a8e6f4559454c257e273a98f8a",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/options.ts": "7c2437cc5a926e396c0d8c0460e2033e31095a9c52be499f4fe65a0bdff70019",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/results.ts": "139a61dbc91f80429dc7725821a85d50d410acb3ab1140d5548d7f1c2b86c259",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/settings.ts": "a39a6751148f8eca047463c6b391d0356d4cd8eab77f0118a19941dcff9f6aa6",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/system.ts": "bbef1945838aedacf9f12140c3a655ab6ecb5dea5ec0b2b38be0277fa7673698",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/core/types/track.ts": "edb4124575f3cf8c6438fd4b9a29794b7f23b1704ea1e356218ecbb3332ebbee",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/extension.ts": "e0cdc5940f005a3503d831ce004c78d70f08478a226f12f98666a699f59d07c7",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/provider.ts": "4429df82deb10e1c2fc19ffba084652d68c0778f345cbd5ee894aa97777f5eb0",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/sdk.ts": "0dbd7efd87a140e28fabb0548dd35d6b664c3bd44e070a310df5fbbdfad99919",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/server.ts": "5750739bce515f93ea84a86a7666c8ae96bde661cd1e7a6454080ca070ebd9cf",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/src/streamer.ts": "1f08b51603639739d406d8db244bd41c3499307943c4befabb896b263ac991f3",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/deno.json": "3bb4a056806f4ceaae94e291f94864792ff08dfa7d3c1eaab12fb25fcaedc0ce",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/mod.ts": "6e59d4fd6726f963442eb6edc00dd839cfcdbfce44abc4fd818c7122562fad79",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/browse.ts": "319d147ac012297cdf59c1183ee21611dde3297f19eaefba78168a5e82686c60",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/client.ts": "276f67aef644bf4add6768cb580baa0d2c6e45e9b9d7add57227c3940d94f6ef",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/consts.ts": "ed548410f7379a1a06028c2e2f6b7df28a1991aa00cef7ff64ab71f006d0d3d9",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/library.ts": "b82022ffb25ffa5bdc679e989ee612e86f61b752f32e5449eedd71bd9e29d23b",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/mod.ts": "392b9e9ebabd9e72828aee7976ce5f569165ac07d9707c44eac69598b03134d1",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/playback.ts": "d80a3bfe0a93ac62eae5b655dea59e2a28d1120831194756e88651fa12f75eab",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/playlist.ts": "18b2fde02f751e941661d718b83460c9dfa4dd177fe244f9513910a5c5262b2d",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/settings.ts": "398a58eda8ad61fb872e2ebcedea4a2237d1dd84f1aa0776a9a4418e61c83374",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/sound.ts": "23b32d7a4ea4f6ca63ca54277522e430c1b2c4b3c28f3a92ca823af3d6329cea",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/system.ts": "bc183cd4248735221ae0a1e0cd61612e0ff0b8fccec30cbbd4139439114a2920",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/album.ts": "944132a9377b680dd111126504ec946280eb3bc074713c307c1f3032a9e944d2",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/artist.ts": "995a3899f3a89041ec3d8716a4e476c75d0b2de7b05a5526a9671a087dabe780",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/entry.ts": "7b0707fe17505316ae03e215cf0df5bf39b352a8e6f4559454c257e273a98f8a",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/options.ts": "7c2437cc5a926e396c0d8c0460e2033e31095a9c52be499f4fe65a0bdff70019",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/results.ts": "139a61dbc91f80429dc7725821a85d50d410acb3ab1140d5548d7f1c2b86c259",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/settings.ts": "a39a6751148f8eca047463c6b391d0356d4cd8eab77f0118a19941dcff9f6aa6",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/system.ts": "bbef1945838aedacf9f12140c3a655ab6ecb5dea5ec0b2b38be0277fa7673698",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/core/types/track.ts": "edb4124575f3cf8c6438fd4b9a29794b7f23b1704ea1e356218ecbb3332ebbee",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/extension.ts": "e0cdc5940f005a3503d831ce004c78d70f08478a226f12f98666a699f59d07c7",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/provider.ts": "4429df82deb10e1c2fc19ffba084652d68c0778f345cbd5ee894aa97777f5eb0",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/sdk.ts": "6b2d70678f0a7091d7e94975444612d4fec63c41459a7d7ae3c4d2fcdad9385e",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/server.ts": "3a91aa7a4372f8e1806c8d5bbc240c4538a209253fa4e1c6d6f04da1f55592c3",
+    "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@main/src/streamer.ts": "1f08b51603639739d406d8db244bd41c3499307943c4befabb896b263ac991f3"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ],
+    "members": {
+      "files": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
+      }
+    }
+  }
+}

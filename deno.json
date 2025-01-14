@@ -1,0 +1,10 @@
+{
+  "workspace": [
+    "./files"
+  ],
+  "license": "MIT",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@tsirysndr/rockbox-addon-sdk": "https://cdn.jsdelivr.net/gh/tsirysndr/rockbox-addon-sdk@885d836/mod.ts"
+  }
+}
